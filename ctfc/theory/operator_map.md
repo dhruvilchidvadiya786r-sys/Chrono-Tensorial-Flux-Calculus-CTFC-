@@ -428,5 +428,5 @@ This document ensures:
 - implementation correctness,
 - long-term maintainability,
 - reviewer confidence.
-```
+
 
