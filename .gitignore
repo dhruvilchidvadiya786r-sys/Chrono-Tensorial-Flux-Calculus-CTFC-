@@ -1,0 +1,184 @@
+# ============================================================
+# Chrono-Tensorial Flux Calculus (CTFC)
+# .gitignore
+#
+# Purpose:
+# - Clean research repository
+# - Deterministic reproducibility
+# - No accidental data / cache / binaries
+# ============================================================
+
+
+# ============================================================
+# Python bytecode & cache
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+
+# ============================================================
+# Virtual environments
+# ============================================================
+.env
+.venv
+env/
+venv/
+ENV/
+.python-version
+
+
+# ============================================================
+# Build & packaging artifacts
+# ============================================================
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+
+# ============================================================
+# Jupyter & IPython
+# ============================================================
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+
+# ============================================================
+# IDEs & editors
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+
+# ============================================================
+# OS-level junk
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ============================================================
+# Experiment outputs (DO NOT VERSION)
+# ============================================================
+experiments/**/outputs/
+experiments/**/results/
+experiments/**/logs/
+experiments/**/figures/
+experiments/**/checkpoints/
+
+
+# ============================================================
+# Large data files (raw or generated)
+# ============================================================
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.pkl
+*.pickle
+
+
+# ============================================================
+# Financial & external data
+# ============================================================
+.yfinance/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+
+# ============================================================
+# Reproducibility artifacts (keep configs, ignore runs)
+# ============================================================
+reproducibility/experiment_logs/
+reproducibility/runs/
+reproducibility/cache/
+
+
+# ============================================================
+# Plots & figures (generated)
+# ============================================================
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+
+# ============================================================
+# Documentation build artifacts
+# ============================================================
+site/
+docs/site/
+docs/_build/
+
+
+# ============================================================
+# LaTeX & paper build artifacts
+# ============================================================
+paper/**/*.aux
+paper/**/*.bbl
+paper/**/*.blg
+paper/**/*.log
+paper/**/*.out
+paper/**/*.toc
+paper/**/*.synctex.gz
+paper/**/*.fls
+paper/**/*.fdb_latexmk
+
+
+# ============================================================
+# Temporary notebooks / scratch work
+# ============================================================
+notebooks/_scratch/
+notebooks/tmp/
+notebooks/**/_autosave.ipynb
+
+
+# ============================================================
+# CI / testing artifacts
+# ============================================================
+.tox/
+.nox/
+pytestdebug.log
+
+
+# ============================================================
+# Secrets & credentials (ABSOLUTELY NEVER COMMIT)
+# ============================================================
+*.key
+*.pem
+*.crt
+*.env
+.env.*
+credentials.json
+secrets.json
+*.secret
+
+
+# ============================================================
+# Allow explicit exceptions
+# ============================================================
+!.gitignore
+!.github/
