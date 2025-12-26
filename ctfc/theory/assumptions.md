@@ -1,9 +1,4 @@
-Below is a **FULL-DEPTH, PUBLICATION-GRADE `assumptions.md`** written in **pure Markdown**.
 
-This file is **extremely important**: it explicitly states **what CTFC assumes, what it does not assume, and what breaks if assumptions are violated**.
-This is exactly the document reviewers look for when assessing rigor.
-
-You can **copy–paste this directly into `assumptions.md`**.
 
 
 
