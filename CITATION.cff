@@ -1,1 +1,120 @@
+cff-version: 1.2.0
+
+message: >
+  If you use this software, theory, or any part of the Chrono-Tensorial Flux
+  Calculus (CTFC) framework in your research, please cite the following work.
+
+title: "Chrono-Tensorial Flux Calculus (CTFC): A Geometric Framework for Spatiotemporal Dynamics"
+
+version: "0.1.0"
+
+doi: null
+
+date-released: 2025-01-01
+
+authors:
+  - family-names: Chodvadiya
+    given-names: Dhruvil
+    email: dhruvil@example.edu
+    affiliation: >
+      Department of Computer Science,
+      University Name,
+      City,
+      Country
+    orcid: null
+
+abstract: >
+  Chrono-Tensorial Flux Calculus (CTFC) is a general mathematical and computational
+  framework for modeling spatiotemporal systems with non-Markovian memory,
+  spatial flux interactions, and evolving covariance geometry.
+  CTFC treats covariance matrices as trajectories on a flux-deformed manifold,
+  introducing chrono-operators such as flux-weighted derivatives, integral memory,
+  curvature surrogates, and flux-scaled spectral modes.
+  The framework provides both a continuous geometric theory and a stable
+  discrete-time realization (CTFC≈), enabling interpretable, bounded, and
+  reproducible analysis of complex dynamical systems.
+  Applications include financial markets, neural data, physical systems,
+  and any domain where temporal correlation geometry evolves over time.
+
+keywords:
+  - spatiotemporal dynamics
+  - non-Markovian systems
+  - information geometry
+  - covariance manifolds
+  - temporal memory
+  - flux geometry
+  - curvature
+  - dimensionality reduction
+  - applied mathematics
+  - machine learning
+
+license: MIT
+
+repository-code: "https://github.com/yourusername/chrono-tensorial-flux"
+
+type: software
+
+preferred-citation:
+  type: article
+  title: "Chrono-Tensorial Flux Calculus: A General Geometric Framework for Spatiotemporal Dynamics"
+  authors:
+    - family-names: Chodvadiya
+      given-names: Dhruvil
+      email: dhruvil@example.edu
+      affiliation: >
+        Department of Computer Science,
+        University Name,
+        City,
+        Country
+  year: 2025
+  journal: "arXiv preprint"
+  url: "https://arxiv.org/abs/XXXX.XXXXX"
+  abstract: >
+    We introduce Chrono-Tensorial Flux Calculus (CTFC), a unified geometric
+    framework for spatiotemporal representation learning that integrates
+    temporal memory, spatial flux interactions, and curvature of evolving
+    covariance structures. CTFC defines a family of chrono-operators derived
+    from Volterra-type memory kernels and tensor contractions, providing
+    bounded and interpretable invariants. A stable discrete-time realization
+    (CTFC≈) enables robust empirical application to real-world systems such
+    as financial markets and neural data.
+
+references:
+  - type: article
+    title: "Laplacian Eigenmaps for Dimensionality Reduction and Data Representation"
+    authors:
+      - family-names: Belkin
+        given-names: Mikhail
+      - family-names: Niyogi
+        given-names: Partha
+    journal: "Neural Computation"
+    year: 2003
+
+  - type: article
+    title: "Diffusion Maps"
+    authors:
+      - family-names: Coifman
+        given-names: Ronald R.
+      - family-names: Lafon
+        given-names: Stéphane
+    journal: "Applied and Computational Harmonic Analysis"
+    year: 2006
+
+  - type: book
+    title: "Principal Component Analysis"
+    authors:
+      - family-names: Jolliffe
+        given-names: Ian
+    publisher: Springer
+    year: 2002
+
+  - type: article
+    title: "Tensor Decompositions and Applications"
+    authors:
+      - family-names: Kolda
+        given-names: Tamara G.
+      - family-names: Bader
+        given-names: Brett W.
+    journal: "SIAM Review"
+    year: 2009
 
